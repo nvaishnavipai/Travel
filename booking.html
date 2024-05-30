@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\paiva\gitvai\cynergy-hackathon\css\form.css">
+</head>
+<body>
+   
+    <div class="header" >
+        <a style="text-decoration: none; height: 40px; width: 100px;border-radius: 5px;"   href="travel_home.html">Home</a>
+        <a style="text-decoration: none;height: 40px; width: 100px;border-radius: 5px;"  href="#para">About</a>
+        <a style="text-decoration: none; height: 40px; width: 100px;border-radius: 5px;" href="#footer">Contact</a>
+    </div>
+
+<div class="form">
+    <form action="ad.html" id="fo"> 
+        <div>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder="Ex:Abc" required>
+            </div><br>
+
+          <div>  
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" placeholder="Ex:Xyz" required>
+            </div><br>
+        <label>Gender</label>
+        <input type="radio" name="title">   
+
+        <label>Male</label>
+        <input type="radio" name="title">    
+
+        <label>Female</label>
+        <input type="radio" name="title">
+        
+        <label>Others</label>
+        <input type="radio" name="title"><br>
+        <br>
+        <div>
+            <label for="phone">Phone No:</label>
+            <input type="tel" id="phone" maxlength="10" placeholder="0000000000" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email Id:</label>
+            <input type="email" id="email" placeholder="shhhsj@gmail.com" required>
+        </div>
+        <br>
+        <div>
+            <label for="bdate">Departure Date:</label>
+            <input type="date" id="bdate" >
+        </div><br>
+        <div>
+            <label for="bdate">Arrival Date:</label>
+            <input type="date" id="bdate" >
+        </div><br>
+        <div>
+            <label for="quantity">No Of Persons:</label>
+            <input type="number" id="quantity" >
+        </div><br>
+        <div>
+            <label for="payment">Travel  Mode:</label>
+            <select   id="payment ">
+                <option value="visa">Bus</option>
+                <option value="debit">Train</option>
+                <option value="debit">Flight</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="payment">Payment Mode:</label>
+            <select   id="payment ">
+                <option value="visa">UPI</option>
+                <option value="debit">Credit</option>
+                <option value="debit">Debit</option>
+            </select>
+        </div><br>
+
+        <div>
+            <input type="checkbox" id="subscribe">
+            <label for=" subscribe">I agree to all terms and conditions</label>
+          
+        </div>
+       <br>
+        <button style="margin-left: 150px; height: 40px; width: 65px;" type="submit">Submit</button> 
+
+        <br>
+   
+    </form>
+</div>
+<footer id="footer" class="footer">
+    Contact :028892 -88289
+    <hr>
+    <div class="terms">
+    PrivacyPolicy      
+    Terms&Conditions
+    CookiesPolicy
+    ReturnPolicy
+    Disclaimer</div>
+</footer>
+</body>
+</html>
